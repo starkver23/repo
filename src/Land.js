@@ -2,15 +2,19 @@
 import React from "react";
 import "./Land.css";
 import Save from "./Save";
-
-const LandingPage = () => {
+import { Link } from "react-router-dom";
+const Land = () => {
   return (
     <div className="landing-container">
       <nav className="navbar">
         <h1>Savings Goal Tracker</h1>
         <div className="navbar-buttons">
-          <button className="login-button">Login</button>
-          <button className="signup-button">Sign Up</button>
+          <Link to="/Login">
+            <button className="login-button">Login</button>
+          </Link>
+          <Link to="/SignUp">
+            <button className="signup-button">Sign Up</button>
+          </Link>
         </div>
       </nav>
       <section className="tracker">
@@ -24,4 +28,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Land;
