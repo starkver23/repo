@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+### Video in MOV Format
+[Watch the demo video (.mov)](https://drive.google.com/file/d/1MFqLRjP_fo4VNjYsukE60uiFWx__VU0A/view?usp=sharing)
+
+### Video in MP4 Format
+[Watch the demo video (.mp4)](https://drive.google.com/file/d/1AYTtaaOKd2AEQS7ykTsn0Gztbg_zddWl/view?usp=sharing)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
